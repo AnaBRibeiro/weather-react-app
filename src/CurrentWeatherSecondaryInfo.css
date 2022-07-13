@@ -1,0 +1,29 @@
+.CurrentWeatherSecondaryInfo .city-name {
+  color: #272142;
+  font-size: 38px;
+  font-weight: 640;
+  line-height: 48px;
+  margin: 0 0 10px 0;
+}
+
+.CurrentWeatherSecondaryInfo .container-weather-secondary-info {
+  padding: 0 0 0 12px;
+}
+
+.CurrentWeatherSecondaryInfo .list-weather-secondary-info {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.CurrentWeatherSecondaryInfo .list-weather-secondary-info:first-letter {
+  text-transform: capitalize;
+}
+
+.CurrentWeatherSecondaryInfo .value-weather-secondary-info {
+  color: #f65282;
+}
+
+.CurrentWeatherSecondaryInfo .weather-secondary-info {
+  color: #a9a6b3;
+}

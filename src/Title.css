@@ -1,0 +1,8 @@
+.Title .app-title {
+  color: rgba(39, 33, 66, 0.8);
+  font-size: 26px;
+  font-weight: 700;
+  margin: 0 0 40px 0;
+  padding: 0 0 0 4px;
+  text-shadow: 0.5px 0.5px 5px rgba(136, 93, 241, 0.4);
+}
