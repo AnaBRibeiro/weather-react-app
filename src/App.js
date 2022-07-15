@@ -2,8 +2,7 @@ import React from "react";
 
 import Title from "./Title";
 import SearchEngine from "./SearchEngine";
-import CurrentWeatherSecondaryInfo from "./CurrentWeatherSecondaryInfo";
-import CurrentWeatherPrimaryInfo from "./CurrentWeatherPrimaryInfo";
+import CurrentWeatherInfo from "./CurrentWeatherInfo";
 import Signature from "./Signature";
 
 import "./App.css";
@@ -16,10 +15,7 @@ function App() {
           <Title />
           <SearchEngine />
           <div className="weather-current">
-            <div className="row">
-              <CurrentWeatherSecondaryInfo />
-              <CurrentWeatherPrimaryInfo />
-            </div>
+            <CurrentWeatherInfo defaultCity="New York" />
           </div>
         </div>
         <Signature />
