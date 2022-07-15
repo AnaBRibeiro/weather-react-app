@@ -1,8 +1,7 @@
 import React from "react";
 
 import Title from "./Title";
-import SearchEngine from "./SearchEngine";
-import CurrentWeatherInfo from "./CurrentWeatherInfo";
+import Weather from "./Weather";
 import Signature from "./Signature";
 
 import "./App.css";
@@ -13,9 +12,8 @@ function App() {
       <div className="container all-content">
         <div className="app-content">
           <Title />
-          <SearchEngine />
           <div className="weather-current">
-            <CurrentWeatherInfo defaultCity="New York" />
+            <Weather defaultCity="New York" />
           </div>
         </div>
         <Signature />

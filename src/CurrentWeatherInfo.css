@@ -6,6 +6,10 @@
   margin: 0 0 10px 0;
 }
 
+.CurrentWeatherInfo .container-weather-primary-info {
+  padding: 0;
+}
+
 .CurrentWeatherInfo .container-weather-secondary-info {
   padding: 0 0 0 12px;
 }
@@ -18,18 +22,6 @@
 
 .CurrentWeatherInfo .list-weather-secondary-info:first-letter {
   text-transform: capitalize;
-}
-
-.CurrentWeatherInfo .value-weather-secondary-info {
-  color: #f65282;
-}
-
-.CurrentWeatherInfo .weather-secondary-info {
-  color: #a9a6b3;
-}
-
-.CurrentWeatherInfo .container-weather-primary-info {
-  padding: 0;
 }
 
 .CurrentWeatherInfo .temperature-unit,
@@ -47,6 +39,10 @@
   margin: 0 5px 0 0;
 }
 
+.CurrentWeatherInfo .value-weather-secondary-info {
+  color: #f65282;
+}
+
 .CurrentWeatherInfo .weather-icon {
   height: 90px;
   position: relative;
@@ -54,11 +50,6 @@
   width: 90px;
 }
 
-.loading-message {
+.CurrentWeatherInfo .weather-secondary-info {
   color: #a9a6b3;
-  font-size: 34px;
-  font-weight: 640;
-  line-height: 48px;
-  text-align: center;
-  margin: 0;
 }
