@@ -1,3 +1,23 @@
 .TemperatureUnits {
   display: inline;
 }
+
+.TemperatureUnits .temperature-unit,
+.temperature-unit-division {
+  color: #272142;
+  font-size: 22px;
+  position: relative;
+  top: -38px;
+}
+
+.TemperatureUnits .temperature-unit-link {
+  color: #a9a6b3;
+  text-decoration: none;
+}
+
+.TemperatureUnits .value-temperature {
+  color: #272142;
+  font-size: 78px;
+  font-weight: 650;
+  margin: 0 5px 0 10px;
+}

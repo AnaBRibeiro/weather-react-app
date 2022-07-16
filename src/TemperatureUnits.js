@@ -26,7 +26,11 @@ export default function TemperatureUnits(props) {
         <span className="temperature-unit"> ºC </span>
         <span className="temperature-unit-division"> | </span>
         <span className="temperature-unit">
-          <a href="/" onClick={showFahrenheit}>
+          <a
+            href="/"
+            className="temperature-unit-link"
+            onClick={showFahrenheit}
+          >
             ºF
           </a>
         </span>
@@ -37,7 +41,7 @@ export default function TemperatureUnits(props) {
       <div className="TemperatureUnits">
         <span className="value-temperature">{displayFahrenheit()}</span>
         <span className="temperature-unit">
-          <a href="/" onClick={showCelsius}>
+          <a href="/" className="temperature-unit-link" onClick={showCelsius}>
             {" "}
             ºC{" "}
           </a>

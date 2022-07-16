@@ -20,21 +20,6 @@
   text-transform: capitalize;
 }
 
-.CurrentWeatherInfo .temperature-unit,
-.temperature-unit-division {
-  color: #272142;
-  font-size: 22px;
-  position: relative;
-  top: -38px;
-}
-
-.CurrentWeatherInfo .value-temperature {
-  color: #272142;
-  font-size: 78px;
-  font-weight: 650;
-  margin: 0 5px 0 10px;
-}
-
 .CurrentWeatherInfo .value-weather-secondary-info {
   color: #f65282;
 }
