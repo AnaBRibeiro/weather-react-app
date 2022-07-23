@@ -1,0 +1,23 @@
+.WeatherForecastDay .day {
+  color: rgba(39, 33, 66, 0.4);
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0 0 10px 0;
+}
+
+.WeatherForecastDay .value-temperature-forecast {
+  margin: 5px 0 0 0;
+}
+
+.WeatherForecastDay .value-temperature-forecast-max {
+  color: #f65282;
+  font-size: 16px;
+  font-weight: 600;
+  margin-right: 5px;
+}
+
+.WeatherForecastDay .value-temperature-forecast-min {
+  color: rgba(246, 82, 130, 0.6);
+  font-size: 16px;
+  font-weight: 600;
+}
